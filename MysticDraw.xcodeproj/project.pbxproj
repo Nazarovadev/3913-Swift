@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1623BEB4587E7D3D69524E73 /* Pods_MysticDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33F86E267CF005512F556E2 /* Pods_MysticDraw.framework */; };
+		72433F7F2EF0242B00EC19BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72433F7C2EF0242B00EC19BD /* Assets.xcassets */; };
+		72433F802EF0242B00EC19BD /* MysticDrawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F7D2EF0242B00EC19BD /* MysticDrawApp.swift */; };
+		72433F8C2EF024BE00EC19BD /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F842EF024BE00EC19BD /* Color+Extensions.swift */; };
+		72433F8D2EF024BE00EC19BD /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F832EF024BE00EC19BD /* View+Extensions.swift */; };
+		72433F8E2EF024BE00EC19BD /* MDLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F892EF024BE00EC19BD /* MDLaunchView.swift */; };
+		72433F8F2EF024BE00EC19BD /* MDHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F872EF024BE00EC19BD /* MDHomeWebView.swift */; };
+		72433F902EF024BE00EC19BD /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72433F852EF024BE00EC19BD /* ShapeStyle+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72433F6D2EF0240B00EC19BD /* MysticDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72433F7C2EF0242B00EC19BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72433F7D2EF0242B00EC19BD /* MysticDrawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticDrawApp.swift; sourceTree = "<group>"; };
+		72433F822EF024B100EC19BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72433F832EF024BE00EC19BD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72433F842EF024BE00EC19BD /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72433F852EF024BE00EC19BD /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72433F872EF024BE00EC19BD /* MDHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDHomeWebView.swift; sourceTree = "<group>"; };
+		72433F892EF024BE00EC19BD /* MDLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDLaunchView.swift; sourceTree = "<group>"; };
+		943FF09E9617F9721E41257D /* Pods-MysticDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticDraw.release.xcconfig"; path = "Target Support Files/Pods-MysticDraw/Pods-MysticDraw.release.xcconfig"; sourceTree = "<group>"; };
+		BC3ACE432B4484B55117FB4E /* Pods-MysticDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticDraw.debug.xcconfig"; path = "Target Support Files/Pods-MysticDraw/Pods-MysticDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		C33F86E267CF005512F556E2 /* Pods_MysticDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MysticDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72433F6A2EF0240B00EC19BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1623BEB4587E7D3D69524E73 /* Pods_MysticDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72433F642EF0240B00EC19BD = {
+			isa = PBXGroup;
+			children = (
+				72433F7E2EF0242B00EC19BD /* MysticDraw */,
+				72433F6E2EF0240B00EC19BD /* Products */,
+				F55CD148717815F6CA7FB23B /* Pods */,
+				81977693DFE203C60F599578 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72433F6E2EF0240B00EC19BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72433F6D2EF0240B00EC19BD /* MysticDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72433F7E2EF0242B00EC19BD /* MysticDraw */ = {
+			isa = PBXGroup;
+			children = (
+				72433F862EF024BE00EC19BD /* Extensions */,
+				72433F8B2EF024BE00EC19BD /* Screens */,
+				72433F822EF024B100EC19BD /* Info.plist */,
+				72433F812EF0242E00EC19BD /* App */,
+				72433F7C2EF0242B00EC19BD /* Assets.xcassets */,
+			);
+			path = MysticDraw;
+			sourceTree = "<group>";
+		};
+		72433F812EF0242E00EC19BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72433F7D2EF0242B00EC19BD /* MysticDrawApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72433F862EF024BE00EC19BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72433F832EF024BE00EC19BD /* View+Extensions.swift */,
+				72433F842EF024BE00EC19BD /* Color+Extensions.swift */,
+				72433F852EF024BE00EC19BD /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72433F882EF024BE00EC19BD /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72433F872EF024BE00EC19BD /* MDHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72433F8A2EF024BE00EC19BD /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72433F892EF024BE00EC19BD /* MDLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72433F8B2EF024BE00EC19BD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72433F882EF024BE00EC19BD /* HomeWebScreen */,
+				72433F8A2EF024BE00EC19BD /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		81977693DFE203C60F599578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33F86E267CF005512F556E2 /* Pods_MysticDraw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55CD148717815F6CA7FB23B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3ACE432B4484B55117FB4E /* Pods-MysticDraw.debug.xcconfig */,
+				943FF09E9617F9721E41257D /* Pods-MysticDraw.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72433F6C2EF0240B00EC19BD /* MysticDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72433F792EF0240D00EC19BD /* Build configuration list for PBXNativeTarget "MysticDraw" */;
+			buildPhases = (
+				7D8A601B01DC723874372727 /* [CP] Check Pods Manifest.lock */,
+				72433F692EF0240B00EC19BD /* Sources */,
+				72433F6A2EF0240B00EC19BD /* Frameworks */,
+				72433F6B2EF0240B00EC19BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MysticDraw;
+			productName = MysticDraw;
+			productReference = 72433F6D2EF0240B00EC19BD /* MysticDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72433F652EF0240B00EC19BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72433F6C2EF0240B00EC19BD = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72433F682EF0240B00EC19BD /* Build configuration list for PBXProject "MysticDraw" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72433F642EF0240B00EC19BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72433F6E2EF0240B00EC19BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72433F6C2EF0240B00EC19BD /* MysticDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72433F6B2EF0240B00EC19BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72433F7F2EF0242B00EC19BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D8A601B01DC723874372727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MysticDraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72433F692EF0240B00EC19BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72433F802EF0242B00EC19BD /* MysticDrawApp.swift in Sources */,
+				72433F8C2EF024BE00EC19BD /* Color+Extensions.swift in Sources */,
+				72433F8D2EF024BE00EC19BD /* View+Extensions.swift in Sources */,
+				72433F8E2EF024BE00EC19BD /* MDLaunchView.swift in Sources */,
+				72433F8F2EF024BE00EC19BD /* MDHomeWebView.swift in Sources */,
+				72433F902EF024BE00EC19BD /* ShapeStyle+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72433F772EF0240D00EC19BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72433F782EF0240D00EC19BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72433F7A2EF0240D00EC19BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3ACE432B4484B55117FB4E /* Pods-MysticDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MysticDraw/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mystic Draw";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazarovaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72433F7B2EF0240D00EC19BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943FF09E9617F9721E41257D /* Pods-MysticDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MysticDraw/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mystic Draw";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazarovaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72433F682EF0240B00EC19BD /* Build configuration list for PBXProject "MysticDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72433F772EF0240D00EC19BD /* Debug */,
+				72433F782EF0240D00EC19BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72433F792EF0240D00EC19BD /* Build configuration list for PBXNativeTarget "MysticDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72433F7A2EF0240D00EC19BD /* Debug */,
+				72433F7B2EF0240D00EC19BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72433F652EF0240B00EC19BD /* Project object */;
+}
